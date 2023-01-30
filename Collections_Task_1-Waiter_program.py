@@ -1,4 +1,4 @@
-print("Hello, what would you like to order? You may order three or more items from each menu")
+print("Hello, what would you like to order? You may order three to five items from each menu")
 choices = []
 
 smenu = {1:"bread",2:"tomatoes",3:"cheese",4:"caviar",5:"mushrooms",6:"peppers"}
@@ -56,4 +56,29 @@ if input("(y/n):") == "y":
         x2 = input("what number your fifth item:")
         choices.append(dmenu.get(int(x2)))
 
+print("would you like to order up to five drinks?")
+cdrinks = []
+if input("(y/n):") == "y":
+    drinks = {1:"wine",2:"beer",3:"juice",4:"tea",5:"coffee",6:"mojito"}
+    print(drinks)
+    x1 = input("what is your first drink:")
+    cdrinks.append(drinks.get(int(x1)))
+    print("would you like to order another drink ")
+    if input("(y/n):") == "y":
+        x2 = input("what number your fifth item:")
+        cdrinks.append(drinks.get(int(x2)))
+        print("would you like to order another drink ")
+        if input("(y/n):") == "y":
+            x3 = input("what number your fifth item:")
+            cdrinks.append(drinks.get(int(x3)))
+            print("would you like to order another drink ")
+            if input("(y/n):") == "y":
+                x4 = input("what number your fifth item:")
+                cdrinks.append(drinks.get(int(x4)))
+                print("would you like to order another drink ")
+                if input("(y/n):") == "y":
+                    x5 = input("what number your fifth item:")
+                    cdrinks.append(drinks.get(int(x5)))
+
 print("thank you for your order so we have:", choices)
+print("I will bring you the following drinks:", cdrinks)
