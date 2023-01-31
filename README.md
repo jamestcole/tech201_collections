@@ -48,7 +48,7 @@ We can change individual data in a similar way, by selecting the position and ma
 
  `shopping_list.pop()`
 
- ##Mixed data type lists
+## Mixed data type lists
  Here is a list of mixed data types:
 
  `mixture = [1 , 2, 3.5, "one", "two", "three"]`
@@ -87,7 +87,7 @@ We can change individual data in a similar way, by selecting the position and ma
 
  Lists and sets are very similar, however sets will have a random placement when they are formed.
 
-###create a set
+### Create a set
  To demonstrate this, let's create a set
 
  `car_parts = {"wheels","doors","exhausts"}`
@@ -123,7 +123,7 @@ We can change individual data in a similar way, by selecting the position and ma
  key = a reference to a particular object
  value = data storage mechanism you want to use
 
-###Create a dictionary
+### Create a dictionary
 First let's create a simple dictionary, note lists can also be stored within a dictionary:
 
 `student_1 = {
@@ -133,7 +133,7 @@ First let's create a simple dictionary, note lists can also be stored within a d
     "completed_lesson_names": ["variables","data_types","setup"]
 }`
 
-###Access data within a dictionary
+### Access data within a dictionary
 
 print(student_1["stream"])
 
@@ -152,19 +152,19 @@ student_1["completed_lesson_names"].remove("data_types")
 
 print(student_1["completed_lesson_names"])
 
-###dictionary methods
+### Dictionary methods
 
 print(student_1.keys())
 
 dictionary methods
 
-###get the keys
+### Get the keys
 
 print(student_1.keys())
 
 print(student_1.get("name"))
 
-###get the values
+### Get the values
 
 print(student_1.values())
 
