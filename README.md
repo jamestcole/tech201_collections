@@ -3,7 +3,7 @@
 ## Lists
 ### Intoduction
 
-In most other langauges Lists are reffered to as Arrays, this can lead to confusion when reading documentation and is worth bearing in mind.
+In most other languages Lists are referred to as Arrays, this can lead to confusion when reading documentation and is worth bearing in mind.
 
 Firstly to explain this topic, let's make a simple list:
 
