@@ -135,39 +135,39 @@ First let's create a simple dictionary, note lists can also be stored within a d
 
 ### Access data within a dictionary
 
-print(student_1["stream"])
+`print(student_1["stream"])`
 
  how to access a particular part of a list in a dictionary
-print(student_1["completed_lesson_names"][1])
+`print(student_1["completed_lesson_names"][1])`
 
 changing a value in a dictionary
 
-student_1["completed_lessons"]=3
+`student_1["completed_lessons"]=3`
 
-print(student_1["completed_lessons"])
+`print(student_1["completed_lessons"])`
 
 removing items from our dictionary
 
-student_1["completed_lesson_names"].remove("data_types")
+`student_1["completed_lesson_names"].remove("data_types")`
 
-print(student_1["completed_lesson_names"])
+`print(student_1["completed_lesson_names"]`)`
 
 ### Dictionary methods
 
-print(student_1.keys())
+`print(student_1.keys())`
 
-dictionary methods
+
 
 ### Get the keys
 
-print(student_1.keys())
+`print(student_1.keys())`
 
-print(student_1.get("name"))
+`print(student_1.get("name"))`
 
 ### Get the values
 
-print(student_1.values())
+`print(student_1.values())`
 
 outputs array of tuples with key value pairs in dictionary
 
-print(student_1.items())
+`print(student_1.items())`
