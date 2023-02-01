@@ -144,13 +144,13 @@ changing a value in a dictionary
 
 `student_1["completed_lessons"]=3`
 
-`print(student_1["completed_lessons"])`
+`print(student_1["completed_lessons"])` #3
 
 removing items from our dictionary
 
 `student_1["completed_lesson_names"].remove("data_types")`
 
-`print(student_1["completed_lesson_names"]`)`
+`print(student_1["completed_lesson_names"]`)` #['variables', 'setup']
 
 ### Dictionary methods
 
@@ -159,12 +159,14 @@ removing items from our dictionary
 
 
 ### Get the keys
-
+If we don't know what our keys are or need to return all of our keys, we can print this using the keys method.
 `print(student_1.keys())`
-
+If we want to return one value associated with a key we can use the get method and select a key.
 `print(student_1.get("name"))`
 
 ### Get the values
+
+
 
 `print(student_1.values())`
 
